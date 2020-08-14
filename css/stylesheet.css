@@ -1,0 +1,433 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("RobotoCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("RobotoCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("RobotoCondensed-Light.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto-Regular";
+}
+
+/* ! navbar */
+nav {
+  text-transform: uppercase;
+}
+
+.listNav {
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  color: black !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px 0;
+}
+
+.listNav,
+.listNavUnit {
+  border-bottom: 1px solid black;
+}
+
+.listNav:hover,
+.listNavUnit:hover {
+  color: white !important;
+}
+
+.logoNav {
+  box-shadow: 2px 3px 2px #888888;
+}
+
+.bg-custom {
+  /* background-color: rgba(247, 241, 227, 0.8); */
+  background-color: rgba(255, 165, 0, 0.6);
+  /* background-color: orange; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-button {
+  /* padding: 12px 12px 0 12px; */
+  padding-top: 8px;
+  text-align: center;
+}
+
+.menu-bar {
+  display: block;
+  color: white;
+}
+
+.menu-name {
+  font-size: 10px;
+  color: white;
+}
+
+#klik-menubar {
+  cursor: pointer;
+}
+
+#menu-detail {
+  width: 0;
+  height: 100%;
+  /* background-color: rgba(247, 241, 227, 0.9); */
+  background-color: rgba(255, 165, 0, 0.9);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.submenu-detail {
+  margin-top: 110px;
+  padding: 0 50px;
+}
+
+.animation-submenu {
+  transition: all 0.5s ease-in-out;
+}
+
+#unit-detail {
+  margin-left: 20px;
+  display: none;
+}
+
+/* ! carousel */
+
+.bg1-content,
+.bg2-content,
+.bg3-content {
+  font-family: "Roboto-Bold";
+  position: absolute;
+  z-index: 20;
+}
+
+.bg5-content,
+.bg4-content,
+.bg6-content,
+.bg7-content,
+.bg8-content,
+.bg9-content,
+.bg10-content,
+.bg12-content,
+.bg11-content {
+  font-family: "Roboto-Bold";
+  margin-top: 350px;
+  text-align: center;
+}
+.bg1-content {
+  top: 33%;
+  left: 28%;
+}
+
+.bg1-content h1,
+.bg2-content h1,
+.bg3-content h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.bg1-content h3 {
+  display: inline-block;
+  padding-top: 10px;
+  border-top: 5px solid white;
+  text-shadow: 3px 3px 8px black;
+  color: orange;
+  font-size: 30px;
+}
+
+.bg2-content {
+  top: 70%;
+  left: 12%;
+}
+
+.titik {
+  color: red;
+}
+
+.bg3-content {
+  top: 50%;
+  left: 25%;
+}
+
+.bg1-img {
+  /* The image used */
+  background-image: url("/img/bg_9.jpg");
+}
+.bg2-img,
+.bg5-img {
+  /* The image used */
+  background-image: url("/img/bg_10.jpg");
+}
+.bg3-img {
+  /* The image used */
+  background-image: url("/img/bg_8.jpg");
+}
+.bg4-img {
+  /* The image used */
+  background-image: url("/img/bg_2.jpg");
+}
+
+.bg11-img {
+  background-image: url("/img/bg_6.jpg");
+}
+
+.bg6-img {
+  background-image: url("/img/bg_1.jpg");
+}
+
+.bg7-img {
+  background-image: url("/img/bg_7.jpg");
+}
+
+.bg8-img {
+  background-image: url("/img/bg_5.jpg");
+}
+
+.bg9-img {
+  background-image: url("/img/bg_3.jpg");
+}
+
+.bg10-img {
+  background-image: url("/img/bg_4.jpg");
+}
+
+.bg1-img,
+.bg2-img,
+.bg3-img {
+  /* Set a specific height */
+  height: 625px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg4-img,
+.bg5-img,
+.bg6-img,
+.bg7-img,
+.bg8-img,
+.bg9-img,
+.bg10-img,
+.bg11-img {
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ! bisnis wrapper */
+.bisnis-wrapper {
+  padding: 180px 0 100px 0;
+}
+
+.bisnis-wrapper h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.bisnis-list img {
+  box-shadow: 4px 2px 8px 2px #dfe4ea;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.bisnis-content {
+  margin-top: 30px;
+}
+
+.bisnis-list:hover > img {
+  cursor: pointer;
+  width: 160px;
+  height: 160px;
+}
+
+.bisnis-list:hover {
+  color: orange;
+  cursor: pointer;
+  font-size: larger;
+}
+
+/*! tentang kami */
+
+.bg4-content h1,
+.bg5-content h1,
+.bg6-content h1,
+.bg7-content h1,
+.bg8-content h1,
+.bg9-content h1,
+.bg10-content h1,
+.bg12-content h1,
+.bg11-content h1 {
+  color: orange;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 8px;
+}
+
+.latar-title {
+  /* background-color: orange; */
+  padding: 35px 0;
+}
+
+blockquote {
+  font-family: "Roboto-Regular";
+  position: relative;
+  margin: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+  font-family: "Roboto-Regular";
+  position: absolute;
+  font-size: 6em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  content: "\201C";
+}
+blockquote:after {
+  font-family: "Roboto-Regular";
+  position: absolute;
+  /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+  float: right;
+  font-size: 6em;
+  line-height: 1;
+  right: 0;
+  bottom: -0.5em;
+  content: "\201D";
+}
+blockquote footer {
+  padding: 0 2em 0 0;
+  text-align: right;
+}
+blockquote cite:before {
+  content: "\2013";
+}
+
+/* ! visi misi */
+
+.visimisi-list {
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.img-visi,
+.img-misi {
+  border-bottom: 10px solid orange;
+}
+
+/* ! cold storage */
+/* ! sistem logistik */
+
+/* ! hubungi kami */
+
+.hubungikami-name {
+  font-family: "Roboto-Bold";
+}
+
+.kontak-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 20px;
+  font-family: "Roboto-Bold";
+  border: 1px solid rgb(168, 163, 163);
+  margin: 10px 0 20px 0;
+  border-radius: 0.5em/0.5em;
+}
+
+.kontak-button {
+  color: white;
+  background-color: #ffb142;
+  box-shadow: 0px 7px #cc8e35;
+  border: none;
+  cursor: pointer;
+}
+
+.kontak-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.kontak-button:focus {
+  outline: 0;
+}
+/* ! footer  */
+.footer-wrapper {
+  background-color: grey;
+  padding: 20px 0 10px 0;
+  font-family: "Roboto-Bold";
+  color: white;
+}
+
+/* ! translate */
+a.gflag {
+  vertical-align: middle;
+  font-size: 32px;
+  padding: 1px 0;
+  background-repeat: no-repeat;
+  background-image: url(//gtranslate.net/flags/32.png);
+}
+a.gflag img {
+  border: 0;
+}
+a.gflag:hover {
+  background-image: url(//gtranslate.net/flags/32a.png);
+}
+#goog-gt-tt {
+  display: none !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+.goog-te-menu-value:hover {
+  text-decoration: none !important;
+}
+body {
+  top: 0 !important;
+}
+#google_translate_element2 {
+  display: none !important;
+}
+
+.trans-icon {
+  padding-top: 8px;
+  margin-right: 20px;
+}

@@ -1,0 +1,249 @@
+/* laptop */
+@media all and (max-width: 1024px) {
+  /* ! home */
+  .bg1-content {
+    left: 25%;
+  }
+
+  .bg3-content {
+    left: 15%;
+  }
+}
+/* tablet */
+@media all and (max-width: 768px) {
+  /* ! home */
+  .listNav {
+    font-size: 18px;
+  }
+
+  .bg1-content {
+    left: 20%;
+  }
+
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1,
+  .bg5-content h1,
+  .bg4-content h1,
+  .bg6-content h1,
+  .bg7-content h1,
+  .bg8-content h1,
+  .bg9-content h1,
+  .bg10-content h1,
+  .bg12-content h1,
+  .bg11-content h1 {
+    font-size: 50px;
+  }
+
+  .latar-title h1,
+  .bisnis-wrapper h1 {
+    font-size: 40px;
+  }
+
+  .bg1-content h3 {
+    font-size: 25px;
+  }
+
+  .bg3-content {
+    left: 15%;
+  }
+}
+/* mobile l */
+@media all and (max-width: 425px) {
+  /* ! home */
+  .listNav {
+    font-size: 14px;
+  }
+
+  .listNavUnit {
+    font-size: 12px;
+  }
+
+  #unit-detail {
+    margin-left: 20px;
+  }
+
+  .submenu-detail {
+    padding: 0 28px;
+  }
+
+  .bg1-content {
+    left: 14%;
+    top: 40%;
+  }
+
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1,
+  .bg5-content h1,
+  .bg4-content h1,
+  .bg6-content h1,
+  .bg7-content h1,
+  .bg8-content h1,
+  .bg9-content h1,
+  .bg10-content h1,
+  .bg12-content h1,
+  .bg11-content h1 {
+    font-size: 38px;
+  }
+  .bisnis-wrapper h1,
+  .latar-title h1 {
+    font-size: 35px;
+  }
+
+  .bg1-content h3 {
+    font-size: 18px;
+  }
+
+  .bg3-content {
+    left: 15%;
+  }
+
+  /* ! footer */
+  .footer-content h5 {
+    font-size: 18px;
+  }
+
+  .footer-content p {
+    font-size: 14px;
+  }
+
+  /* ! tentang kami */
+  blockquote p,
+  footer cite {
+    font-size: 16px;
+  }
+
+  blockquote {
+    margin: 0 -20px;
+    padding: 12px 20px;
+  }
+  blockquote:before,
+  blockquote:after {
+    font-size: 50px;
+  }
+
+  /* ! visi misi */
+  .img-misi,
+  .img-visi {
+    width: 250px;
+    height: 200px;
+  }
+
+  .visi-font h2 {
+    font-size: 30px;
+  }
+
+  .arti-company h5,
+  .hubungi-font {
+    font-size: 18px;
+  }
+
+  /* ! hubungi kami */
+  input,
+  textarea {
+    width: 300px;
+  }
+}
+/* mobile m */
+@media all and (max-width: 375px) {
+  /* ! home */
+  .listNav {
+    font-size: 12px;
+  }
+
+  .listNavUnit {
+    font-size: 11px;
+  }
+
+  #unit-detail {
+    margin-left: 14px;
+  }
+
+  .submenu-detail {
+    padding: 0 20px;
+  }
+
+  .bg1-content {
+    left: 18%;
+  }
+
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1,
+  .bg5-content h1,
+  .bg4-content h1,
+  .bg6-content h1,
+  .bg7-content h1,
+  .bg8-content h1,
+  .bg9-content h1,
+  .bg10-content h1,
+  .bg12-content h1,
+  .bg11-content h1,
+  .bisnis-wrapper h1,
+  .latar-title h1 {
+    font-size: 30px;
+  }
+
+  .bg1-content h3 {
+    font-size: 16px;
+  }
+
+  .bg3-content {
+    left: 12%;
+  }
+
+  /* ! footer */
+  .footer-content h5 {
+    font-size: 14px;
+  }
+
+  .footer-content p {
+    font-size: 12px;
+  }
+
+  /* ! tentang kami */
+  blockquote p,
+  footer cite {
+    font-size: 14px;
+  }
+}
+
+/* mobile s */
+@media all and (max-width: 320px) {
+  /* ! home */
+  #unit-detail {
+    margin-left: 10px;
+  }
+
+  .submenu-detail {
+    padding: 0 14px;
+  }
+
+  .trans-icon {
+    margin-right: 8px;
+  }
+
+  .bg1-content {
+    left: 12%;
+  }
+
+  /* ! tentang kami */
+  blockquote p,
+  footer cite {
+    font-size: 12px;
+  }
+
+  /* ! visi misi */
+  .img-misi,
+  .img-visi {
+    width: 200px;
+    height: 150px;
+  }
+
+  /* ! hubungi kami */
+  input,
+  textarea {
+    width: 200px;
+  }
+}
